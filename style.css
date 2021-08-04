@@ -370,7 +370,19 @@ footer nav {
 
 @media all and (max-width: 700px) {
     .intro h2, h3, h4 {
-        margin: auto 10px;
+        margin: auto 20px;
+    }
+
+    .intro h2 {
+        font-size: 2rem;
+    }
+
+    .intro h3 {
+        font-size: 1.5rem;
+    }
+
+    .intro h4 {
+        font-size: 1rem;
     }
 
     .contactanos h3 {
@@ -391,5 +403,13 @@ footer nav {
 
     .media li {
         padding: 0px 10px;
+    }
+
+    .media ul 
+        {margin-right: 0px;
+    }
+
+    footer nav ul {
+        padding-left: 10px;
     }
 }
